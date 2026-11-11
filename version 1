@@ -1,0 +1,20 @@
+e = ("Name: ", clean_name, clean_lastname)
+print(e)
+print("NAME CODE: ", clean_lastname.upper())
+print("Section: ", clean_section.upper())firstname =  input("Enter first name: ")
+lastname = input("Enter last name: ")
+section = input("Enter section: ")
+sub = input("Enter favorite subject: ")
+
+clean_name = firstname.strip().title()
+clean_lastname = lastname.strip().title()
+clean_section = section.strip().upper()
+clean_sub = sub.strip()
+
+
+print("Favorite Subject: ", clean_sub.title())
+print("Character Count: ", len(e))
+print("\n" + "=" * 35)
+print("Formatted Output:")
+print("=" * 35)
+
